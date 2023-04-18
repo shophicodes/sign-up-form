@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+.container {
+    display: flex;
+}
+.hero {
+    background: transparent url("/assets/alex-blajan-vNGL14-V5TY-unsplash.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero-logo {
+    width: 100%;
+    margin-top: 100%;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 50%);
+}
+.hero-logo > img {
+    width: 64px;
+}
+.logo-text {
+    font: 4rem 'Delicious Handrawn', cursive;
+    color: #E5E7EB;
+}
+.image-credits {
+    color: #E5E7EB;
+    align-self: center;
+    margin-bottom: 5%;
+}
+.image-credits > a {
+    text-decoration: none;
+    color: #c3c5c9;
+}
+.image-credits > a:hover {
+    text-decoration: underline;
+}
+.form-container {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+.msg-box {
+    margin-top: 7rem;
+}
+.message {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: 0 2rem;
+}
+form {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 65vw;
+    margin-top: 6rem;
+}
+.form-main {
+    background-color: #fff;
+    padding: 2rem;
+}
+.form-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 4rem;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    width: 14rem;
+    height: 32px;
+}
+button {
+    margin: 2rem;
+    width: 12rem;
+    height: 48px;
+    border: none;
+    background-color: #420121;
+    color: #f1f1f1;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+button:hover {
+    cursor: pointer;
+}
+.log-in-message {
+    margin: 0 2rem;
+}
+.log-in-message > a {
+    text-decoration: none;
+    color: #420121;
+    font-weight: 700;
+}
+.log-in-message > a:hover {
+    text-decoration: underline;
+}
